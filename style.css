@@ -1,0 +1,685 @@
+body 
+{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2em;
+    margin: 0px;
+}
+a
+{
+    text-decoration: none;
+}
+header
+{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	position: fixed;
+  top:0;
+	width: 100%;
+  background: white;
+  z-index: 1;
+  padding-top: 20px;
+  padding-bottom: 20px;	
+}
+nav ul
+{
+	list-style-type: none;
+  display: flex;
+}
+nav li
+{
+	margin-right: 15px
+}
+.menu
+{
+    padding-top: 22px;
+}
+.active
+{
+    padding-top: 19px;
+    border-top: solid 3px #5CADD3;
+}
+.menu:hover
+{
+   padding-top: 19px;
+   border-top: solid 3px #5CADD3; 
+}
+#fillette
+{
+    height: auto;
+    width: 100%;
+    padding-top: 80px;
+    position:relative;
+}
+#barre-bleue
+{
+  position: relative;
+  width:180px;
+  height:5px;
+  bottom:10px;
+  background-color:#5CADD3;
+}
+h1
+{
+   font-weight: bold;
+   font-size: 1.7em;
+   margin-bottom: 10px;
+}
+.webagency
+{
+    color: #5baacf;
+    font-size: 1em;
+    font-weight: bold;
+}
+.texteslider
+{
+   position: absolute;
+   top: 280px;
+   color: white;
+   padding-left: 65px;
+   margin-left: 150px;
+}
+.bouton-info
+{
+   background-color: #5CADD3;
+   color: white;
+   padding: 8px; 
+   border-radius: 5px;
+   border-bottom: 3px solid #468cad;
+}
+.fa.fa-angle-left
+{
+  position:absolute;
+  left:-10px;  
+  bottom: 50%;
+  color: white;
+  font-size: 1.2em;
+  background-color: rgba(0,0,0,0.4);
+  padding:1rem 1.2rem 1rem 1rem;
+  border-radius: 0px 30px 30px 0px;
+}
+.fa.fa-angle-right
+{
+  position:absolute;
+  right:0px;
+  bottom:50%;
+  color: white;
+  font-size: 1.2em;
+  background-color: rgba(0,0,0,0.4);
+  border-radius: 30px 0 0 30px;
+  padding: 1rem 1rem 1rem 1.2rem;
+  padding-right: 5px;
+}
+h2
+{
+    padding-top: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 2em;
+}
+#services
+{
+   text-align: center;
+}
+.separateur
+{
+ text-align: center;
+ position: relative; 
+}
+hr
+{
+  background-color:#e5e5e5;
+  width:125px; 
+  height:0.2px;
+}
+.point-bleu
+{
+    background-color: #5CADD3;
+    width: 15px;
+    height: 15px;
+    border-radius: 90%;
+    border: 2px solid white;
+    top:-8px;
+    left:49.5%;
+    position: absolute;
+}
+#contenant
+{
+   display: flex;
+   justify-content: space-around;
+   align-items: center;   
+}
+.liste-services
+{
+    display:flex;
+    align-items: center;
+}
+.detail-texte
+{
+    text-align:left;
+    margin-left: 25px;
+}
+.icones
+{
+   position:relative;
+   color: #5CADD3;
+   display: flex;
+   width: 70px;
+   height: 70px;
+   border-radius:100%;
+   border:solid 1px #d9d9d9;
+   align-items: center;
+   justify-content: center;
+   font-size: 27px;
+}
+.point 
+{
+   position:absolute;
+   right:-8.5px;
+   font-size:13px;
+   border:3px solid white;
+}
+.projet
+{
+   font-size: 0.7em;
+   font-weight: bold;
+   padding-bottom: 15px;
+}
+#boutonbleu
+{
+   background-color: #5CADD3;
+   color: white;
+   padding: 8px; 
+   border-radius: 5px 0px 0px 5px;
+   border-bottom: 3px solid #468cad; 
+}
+.boutongris
+{
+   background-color: #e5e5e5;
+   color: #636363;
+   padding: 8px;   
+}
+#boutonbleu:hover
+{
+   background-color: #5CADD3;
+   color: white;
+   border-bottom: 3px solid #468cad;   
+}
+.boutongris:hover
+{
+   background-color: #5CADD3;
+   color: white;
+   padding: 8px; 
+   border-bottom: solid #468cad; 
+}
+.arrow
+{
+  opacity:0;
+}
+.menu-projets:hover .arrow
+{
+  opacity:1;
+}
+.boutongris-droit
+{
+   background-color: #e5e5e5;
+   color: #636363;
+   padding: 0px 5px 5px 0px; 
+   border-radius: 5px; 
+   padding:8px;  
+}
+.boutongris-droit:hover
+{
+   background-color: #5CADD3;
+   color: white;
+   padding: 8px; 
+   border-radius: 0px 5px 5px 0px;
+   border-bottom: 3px solid #468cad; 
+}
+#section-projets
+{
+    background-color: #F1F1F1;
+    margin-bottom:20px;
+}
+#nos-projets
+{
+    text-align: center;
+}
+#project
+{
+    display: flex;
+    position: relative;
+    justify-content: center;   
+}
+#nav-projets
+{
+    padding-bottom: 30px;
+}
+.menu-projets
+{
+    margin-right: 0px;
+    position:relative;
+    width: 87px;
+    text-align: center;
+}
+.fa-sort-down
+{
+    position: absolute;
+    bottom:-11px;
+    color:#468cad;
+    font-size: 25px;
+    left: 43px;
+}
+#images-projets
+{
+    justify-content: center;
+    display:flex;
+    flex-wrap: wrap;
+    max-width: 1400px;
+    margin: auto;
+    padding-bottom: 30px;
+}
+figure
+{   
+    position:relative; 
+    width: 300px;
+    height: 200px;
+    margin: 10px;
+}
+.img
+{
+    width: 300px;
+    height: 200px;
+    margin: 10px;
+} 
+figcaption
+{
+   position: absolute;
+   background-color: rgba(0,0,0,0.5);
+   opacity:0;
+   color: #fff;
+   width:100%;
+   height:70px;
+   bottom:-10px;
+   left: 10px;
+}
+figure:hover figcaption
+{
+   opacity:0.8;
+}
+.legende
+{
+  padding-left: 10px;
+  font-size: 0.7em;
+}
+
+.far.fa-eye
+{
+  position:absolute; 
+  color:white;
+  font-size: 0.9em;
+  background: #5CADD3;
+  border-radius: 50%;
+  border:1.5px solid white;
+  display: inline-block;
+  padding:11px 10px 11px 10px;
+  top:-20px;
+  right:15px;
+}
+#contact
+{
+   background:#468cad;
+   position: relative;
+}
+#map
+{ 
+   padding-top: 0px;
+}
+iframe
+{
+    width: 100%;
+    height: 710px;
+    opacity: 0.5;
+    border:0;
+}
+#formulaire
+{
+   position: absolute;
+   right: 150px;
+   top:100px;
+   background-color: rgba(255,255,255,0.7);
+   text-align: left;
+   width: 350px;
+   height: 470px;
+   padding:30px 10px 30px 30px;
+}
+#contact-info
+{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+h4#info-adresse
+{
+  margin-top: 10px;
+  margin-bottom: 2px;
+  font-weight: bold;
+  font-size:0.8em;
+  color:rgb(77 77 77);
+}
+#adresse
+{
+  margin-top: 2px;
+  margin-bottom: 20px;
+  font-size: 0.8em;
+  color:rgb(77 77 77);
+}
+input
+{
+   width: 325px;
+   height: 26px;
+   margin-bottom: 12px;
+   border-radius:4px;
+   opacity:1;
+   background-color: white;
+   padding-left: 5px;
+   border-style: solid;
+   border-color: rgb(169 169 169);
+   border-width: 1px;
+   font-weight: bold;
+}
+textarea
+{
+   height: 150px;
+   width: 325px;
+   border-radius:4px;
+   opacity:1;
+   background-color: white;
+   padding-left:5px;
+   font-weight: bold;
+}
+#bouton-envoyer
+{
+   margin-top: 12px;
+   font-size: 0.8em;
+   background-color:#5CADD3;
+   padding: 7px 7px;
+   text-align: left;
+   border-radius: 3px;
+   border-bottom: 3px solid #468cad;
+   width: 104px;
+}
+.envoi:visited
+{
+  color:white;
+}
+
+@media all and (max-width: 2560px)
+{
+  .fa.fa-angle-left
+  {
+    bottom:50%;
+  }
+  .fa.fa-angle-right
+  {
+    bottom:50%;
+  }
+}
+@media all and (max-width: 1440px)
+{
+  .fa.fa-angle-left
+  {
+    bottom:55%;
+  }
+  .fa.fa-angle-right
+  {
+    bottom:55%;
+  }
+  .texteslider
+  {
+    top:220px;
+    margin-left: 30px;
+  }
+}
+@media all and (max-width: 1024px)
+{
+  #slide
+  {
+    margin-top: 35px;
+  }
+  .texteslider
+  {
+    top:150px;
+    padding-left: 50px;
+    font-size:16px;
+  }
+  #barre-bleue
+  {
+    bottom:10px;
+  }
+  .fa.fa-angle-left
+  {
+    bottom:60%;
+  }
+  .fa.fa-angle-right
+  {
+    bottom:60%;
+  }
+}
+  @media all and (max-width: 768px)
+{
+  #slide
+  {
+    margin-top: 30px;
+  }
+  #contenant
+  {
+     flex-direction: column;  
+  }
+  #fillette
+  {
+    min-height: 200px;
+  }
+  .fa.fa-angle-left
+  {
+    bottom:65%;
+  }
+  .fa.fa-angle-right
+  {
+    bottom:65%;
+  }
+  .texteslider
+  {
+    font-size: 12px;
+    padding-left: 50px;
+  }
+}
+  @media all and (max-width: 425px)
+{
+  header
+  {
+    max-width: 100%;
+    flex-direction: column;
+  }
+  #header-nav
+  {
+    max-width: 320px;
+    width: 100%
+  }
+  .menu
+  {
+    text-align: center;
+    background-color: #e5e5e5;
+    padding:8px;
+    padding-left: 0px;
+    padding-right: 0px;
+    width:100%;
+  }
+  .active
+  {
+    text-align:center;
+    background-color: #5CADD3;
+    padding:8px;
+    border-top: 0px;
+    width: 100%;
+    color:white;
+    margin-right: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+  } 
+  .menu:hover
+  {
+    background-color: #5CADD3;
+    padding:8px;
+    border-top: 0px;
+    width: 100%;
+    color:white;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  #menu-header
+  {
+   flex-direction: column;
+   padding-left: 0px;
+  }
+  #slide
+  {
+    margin-top: 300px;
+  }
+  #fillette
+  {
+    display: none;
+  }
+  #barre-bleue
+  {
+    display:none;
+  }
+  .fa.fa-angle-left
+  {
+    display:none;
+  }
+  .fa.fa-angle-right
+  {
+    display: none
+  }
+  .webagency
+  {
+    font-size: 42px;
+  }
+  .texteslider
+  {
+    color:black;
+    padding-left: 0px;
+    margin-left: 0px;
+    margin-top:180px;
+    position: relative;
+    top:5px;
+    text-align: center;
+    font-size:20px;
+  }
+  .projet
+  {
+    font-size: 13px;
+  }
+  #services
+  {
+    padding-top: 0px;
+  }
+  h1
+  {
+    font-size:42px;
+    text-align: center;
+  }
+  #contenant
+  {
+    flex-direction: column;  
+  }
+  .ecran
+  {
+   width:100%;
+  }
+  .liste-services
+  {
+    flex-direction: column;
+  }
+  .detail-texte
+  {
+    text-align:center;
+    margin-left: 0px;
+  }
+  #project
+  {
+    padding-left: 0px;
+    flex-direction: column;
+  }
+  #boutonbleu
+  {
+    border-radius:5px 5px 0px 0px;
+    border-bottom: 0px;
+    width:100%;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .boutongris
+  {
+    width:100%;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .boutongris:hover
+  {
+    border-bottom:0px;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .boutongris-droit
+  {
+    border-radius: 0px 0px 5px 5px;
+    width: 100%;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .boutongris-droit:hover
+  {
+    border-radius:0px 0px 5px 5px;
+    border-bottom:0px;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  i.fa-sort-down
+  {
+    display: none;
+  }
+  #section-contact
+  {
+    background: white;
+  }
+  #formulaire
+  {
+    position:relative;
+    background-color: #F1F1F1;
+    width:100%;
+    left:0%;
+    padding-bottom: 20px;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    top: 0px;
+    right: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    width: 100%;
+    text-align:center;
+  }
+  input
+  {
+    width: 200px;
+  }
+  textarea
+  {
+    width: 200px;
+  }
+  #bouton-envoyer
+  {
+    margin-left: 33%;
+  }
+}
